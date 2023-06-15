@@ -902,10 +902,15 @@ html { scroll-behavior: auto; }
 
 
 /* change font size */
-.franklin-content,.jumbotron, .bar_top, .navbar, .nav-item, footer, .left_bar {
+.jumbotron, .bar_top, .navbar, .nav-item, footer, .left_bar {
   font-size: 16px;  
   font-family: "Open Sans";
 } 
+
+.franklin-content{
+  font-size: 17px;  
+  font-family: "Open Sans";
+}
 
 h1  {font-family: "Inter"}
 .name_format  {font-family: "Inter"}  
@@ -1187,7 +1192,7 @@ a.anchor {
   top: 0;
   left: 0;      
   padding: 0px 0px 10px 10px;
-  font-size: 16px;  
+  font-size: 18px;  
   font-family: "Inter";
   width: 180px;
 }
@@ -1208,7 +1213,7 @@ font-size:85%;
 position: relative;
 padding-left: 0.2em;
 padding-top: 1em;
-line-height: 4.25em;
+line-height: 4em;
 }
 
 
@@ -1927,8 +1932,12 @@ window.onkeydown = function(event) {
 
 
   @media (max-width: 850px), (max-height: 600px) {
-       .franklin-content,.jumbotron, .left_bar{
-          font-size:80% ;}
+    .franklin-content,.jumbotron, .left_bar{
+        font-size:90% !important;}
+
+        .franklin-content{
+        font-size:100% !important;}
+
   
         h1 {font-size: 180%; padding-top:1.5em;padding-bottom:1.5em;}
   
@@ -1975,10 +1984,8 @@ window.onkeydown = function(event) {
         }
        
                    
-        .left_bar ul, .left_bar ul li, .left_bar ul li a { padding:0 !important; height:2.8em;}
-        
-        
-        
+        .left_bar ul, .left_bar ul li, .left_bar ul li a { padding:0 !important; height:2.8em; font-size:96%;}
+                
   
         .left_bar img, .left_bar ul li a img{
         width:0% !important; height:0% !important; visibility: hidden;}  
@@ -1986,7 +1993,7 @@ window.onkeydown = function(event) {
   }
 
   @media (max-width: 850px) {
-    .left_bar ul, .left_bar ul li, .left_bar ul li a { padding:0 !important; height:3.3em; font-size:96%;}
+    .left_bar ul, .left_bar ul li, .left_bar ul li a { padding:0 !important; height:3.0em; font-size:96%;}
   }
   
   </style>
